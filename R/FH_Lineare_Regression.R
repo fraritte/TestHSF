@@ -13,7 +13,6 @@
 #' @import kableExtra
 #' @import expss
 #' @import apaTables
-#' @import lmSupport
 #' @import jtools
 #' @import lm.beta
 #' @import r2rtf
