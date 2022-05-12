@@ -1,11 +1,21 @@
 Package: TestHSF
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Statistische Auswertungsmethoden der Psychologie
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Frederic Hilkenmeier, Hochschule Fresenius Hamburg
+Maintainer: The package maintainer <frederic.hilkenmeier@hs-fresenius.de>
+Description: Wrapper ueber bestehende R-Pakete um die Ergebnisse verschiedener statistischer Methoden darzustellen.
+    Die Methoden beinhalten bspw. die Itemanalyse, ANOVA oder multiple Regression.
+    Die Ergebnisse werden in Tabellenform auszugeben, naeherungsweise im APA-Style .
+    Im Paket werden vornehmlich Methoden zusammengestellt, die in den Modulen "Forschungsmethoden" der Psychology School der Hochschule Fresenius behandelt werden. 
+Depends: haven, dplyr, knitr, kableExtra, apaTables, lmSupport, jtools,
+        difNLR, ShinyItemAnalysis, data.table, sjmisc, psych, lm.beta,
+        r2rtf, aod, rcompanion, xtable, lsr, gmodels, sjlabelled,
+        chisq.posthoc.test, ggstatsplot, CGPfunctions, ggplot2, jmv,
+        jtools, rstatix, PerformanceAnalytics, expss, emmeans, Hmisc
+License: GPL
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2021-11-22 14:16:53 UTC; frederic.hilkenmeier
