@@ -8,7 +8,7 @@ Description: Wrapper ueber bestehende R-Pakete um die Ergebnisse verschiedener s
     Die Methoden beinhalten bspw. die Itemanalyse, ANOVA oder multiple Regression.
     Die Ergebnisse werden in Tabellenform auszugeben, naeherungsweise im APA-Style .
     Im Paket werden vornehmlich Methoden zusammengestellt, die in den Modulen "Forschungsmethoden" der Psychology School der Hochschule Fresenius behandelt werden. 
-Depends: haven, dplyr, knitr, kableExtra, apaTables, lmSupport, jtools,
+Depends: haven, dplyr, knitr, kableExtra, apaTables, jtools,
         difNLR, ShinyItemAnalysis, data.table, sjmisc, psych, lm.beta,
         r2rtf, aod, rcompanion, xtable, lsr, gmodels, sjlabelled,
         chisq.posthoc.test, ggstatsplot, CGPfunctions, ggplot2, jmv,
