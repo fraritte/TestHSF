@@ -17,7 +17,6 @@
 #' @import lm.beta
 #' @import r2rtf
 #' @import aod
-#' @import rcompanion
 #' @import xtable
 #' @export
 
