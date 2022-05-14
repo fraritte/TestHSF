@@ -23,7 +23,6 @@ Imports:
     lm.beta,
     r2rtf,
     aod,
-    rcompanion,
     rms,
     xtable,
     lsr,
