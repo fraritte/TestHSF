@@ -115,12 +115,12 @@ Hinweis_Itemanalyse <- c("Die Tabelle mit den Ergebnissen der multiplen Regressi
 
 print(Hinweis_Itemanalyse)
 print(Hinweis_Konstruktmittelwert)
-
- print( result %>%
-  kbl() %>%
-  kable_styling())
+print(result)
+ #print( result %>%
+ # kbl() %>%
+ # kable_styling())
   
- # print(result)
+ 
 
    return(data)
  # return(list(result,  Hinweis_Itemanalyse, Hinweis_Konstruktmittelwert, data))
