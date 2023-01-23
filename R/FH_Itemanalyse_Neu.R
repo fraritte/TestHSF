@@ -112,7 +112,7 @@ Hinweis_Itemanalyse <- c("Die Tabelle mit den Ergebnissen der multiplen Regressi
 
 
 
-view (result)
+show(result)
 print(Hinweis_Itemanalyse)
 print(Hinweis_Konstruktmittelwert)
 
