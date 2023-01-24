@@ -18,7 +18,7 @@
 #' @import psych
 #' @export
 
-FH_Itemanalyse <- function(data = dataset, variables=Konstrukt_Items, min_x , max_x,  tabnumber = Tabellennummer, construct_name = "Konstrukt_X"){
+FH_Itemanalyse <- function(data = dataset, variables=Konstrukt_Items, min_x , max_x,  tabnumber = Tabellennummer, construct_name = "Konstrukt_X", Ausgabe = "Tabelle"){
 
   subdataset <- as.data.frame(subset(data, select = variables)) # Alle Variablen, ueber die die Itemanalyse durchgefuehrt werden soll, werden jetzt in einem Subdatensatz gespeichert
 
@@ -125,11 +125,13 @@ print(Hinweis_Itemanalyse)
   # return(result)  <-- Hiermit funktioniert es in Markdown, aber die neue Variable wird nicht mitgespeichert
  # return(list(result,  Hinweis_Itemanalyse, Hinweis_Konstruktmittelwert, data))
 
-  my_list <- list ("Tabelle" = result, "Daten" = data)
-  
-  return(my_list)
+ 
 
-
+if (Ausgabe == "Tabelle") {
+  return (result)
+  }else {
+  return (data)
+}
 
 
 }
