@@ -122,9 +122,12 @@ print(Hinweis_Itemanalyse)
   
  
 
-   return(result)
+  # return(result)  <-- Hiermit funktioniert es in Markdown, aber die neue Variable wird nicht mitgespeichert
  # return(list(result,  Hinweis_Itemanalyse, Hinweis_Konstruktmittelwert, data))
 
+  my_list <- list ("Tabelle" = result, "Daten" = data)
+  
+  return(my_list)
 
 
 
