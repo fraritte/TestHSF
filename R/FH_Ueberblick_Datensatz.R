@@ -31,9 +31,10 @@ FH_Ueberblick_Datensatz_sav <- function(data = dataset){
   # Auflistung aller Variablennamen im Datensatz. Das macht es ggf. einfacher zu sehen, wie die Variablen heissen, die in die Itemanalyse aufgenommen werden sollen.
   Variablennamen <- variable.names(data)
 
+print(Variablennamen)
+  return(result)
 
-
-  return(list(result, Variablennamen))
+  # return(list(result, Variablennamen))
 
 
 }
