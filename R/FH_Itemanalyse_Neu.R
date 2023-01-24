@@ -113,7 +113,7 @@ Hinweis_Itemanalyse <- c("Die Tabelle mit den Ergebnissen der multiplen Regressi
 
 
 #print(result)
-#print(Hinweis_Itemanalyse)
+print(Hinweis_Itemanalyse)
 #print(Hinweis_Konstruktmittelwert)
 
  #print( result %>%
@@ -122,8 +122,8 @@ Hinweis_Itemanalyse <- c("Die Tabelle mit den Ergebnissen der multiplen Regressi
   
  
 
- #  return(data)
-  return(list(result,  Hinweis_Itemanalyse, Hinweis_Konstruktmittelwert, data))
+   return(result)
+ # return(list(result,  Hinweis_Itemanalyse, Hinweis_Konstruktmittelwert, data))
 
 
 
